@@ -6,8 +6,6 @@ a {
   background-color: black;
   opacity: 0.9;
   text-align: center;
-  margin: 0;
-  padding: 0;
 }
 
 /* Header Section */
@@ -38,4 +36,30 @@ nav {
 nav span {
   padding: 20px 10px;
   text-decoration: underline;
+}
+
+/* Stage Section */
+
+.stage {
+  margin: 70px auto 0 auto;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/img-mission-background.jpg);
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+}
+
+.mission h2,
+.mission h4 {
+  padding: 10px;
+  margin: 0;
 }
